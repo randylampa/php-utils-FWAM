@@ -1,6 +1,6 @@
 {
-	"name" : "technicalguru/utils",
-	"description" : "Basic classes for PHP development",
+	"name" : "technicalguru/utils-fwam",
+	"description" : "Basic classes for PHP development (FWAM)",
 	"type" : "library",
 	"keywords" : [
 		"framework",
