@@ -5,12 +5,12 @@ namespace TgUtils;
 /** Helpers to construct URLs from objects */
 interface LinkBuilder {
 
-	public const LIST   = 'list';
-	public const VIEW   = 'view';
-	public const CREATE = 'create';
-	public const EDIT   = 'edit';
-	public const DELETE = 'delete';
-	public const COPY   = 'copy';
+	const LIST   = 'list';
+	const VIEW   = 'view';
+	const CREATE = 'create';
+	const EDIT   = 'edit';
+	const DELETE = 'delete';
+	const COPY   = 'copy';
 
 	/**
 	  * Constructs and returns the link.

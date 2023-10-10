@@ -5,13 +5,13 @@ namespace TgUtils;
 
 class Utils {
 
-	public const ALPHA              = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	public const NUMERIC            = '01234567890';
-	public const SPECIAL            = '!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
-	public const ALPHANUMERIC       = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	public const ALPHASPECIAL       = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
-	public const NUMERICSPECIAL     = '0123456789!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
-	public const ALPHNUMERICSPECIAL = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
+	const ALPHA              = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	const NUMERIC            = '01234567890';
+	const SPECIAL            = '!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
+	const ALPHANUMERIC       = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	const ALPHASPECIAL       = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
+	const NUMERICSPECIAL     = '0123456789!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
+	const ALPHNUMERICSPECIAL = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&/()=?*_:;>{[]+~#-.,<^`´@';
 
     /**
      * Anonymizes a string.

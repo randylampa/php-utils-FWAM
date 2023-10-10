@@ -14,7 +14,7 @@ namespace TgUtils;
 class Obfuscation {
 
     /** The default character set to be used for obfuscation. */
-    public const DEFAULT_CHAR_SET = ' ()+-./0123456789:@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
+    const DEFAULT_CHAR_SET = ' ()+-./0123456789:@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
     
     /**
      * Obfuscates an email address along with its link (&lt;a href="mailto:..."&gt;).

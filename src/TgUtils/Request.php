@@ -8,7 +8,7 @@ use TgLog\Error;
 /** Holds information about an HTTP request */
 class Request {
 
-    public const DEFAULT_REQUEST_URI = 'https://www.example.com/';
+    const DEFAULT_REQUEST_URI = 'https://www.example.com/';
     
 	/** the default instance from globals */
 	protected static $request;
