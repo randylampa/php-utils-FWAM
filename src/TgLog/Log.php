@@ -137,7 +137,7 @@ class Log {
 		$arr = array();
 		foreach ($backtrace AS $step) {
 			if (($step['file'] != __FILE__) && (($excludeFile == NULL) || ($step['file'] != $excludeFile))) {
-				if ($step['type']) {
+				if (isset($step['type'])) {
 					$arr[] = 'at '.$step['file'].' (line '.$step['line'].'): '.$step['class'].$step['type'].$step['function'].'()';
 				} else {
 					$arr[] = 'at '.$step['file'].'(line '.$step['line'].'): '.$step['function'].'()';
